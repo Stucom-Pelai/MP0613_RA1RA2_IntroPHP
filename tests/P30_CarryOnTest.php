@@ -27,8 +27,7 @@ final class P30_CarryOnTest extends TestCase
 
         fclose($stdin);
 
-        // Verificamos que la cantidad de "Carry on?" mostradas coincida con lo esperado
-        $this->assertEquals($expectedPromptCount, substr_count($output, "Carry on?"));
+        $this->assertEquals($expectedPromptCount, substr_count($output, "Shall we carry on?"));
     }
 
     public static function inputProvider(): array
