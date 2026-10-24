@@ -11,6 +11,7 @@ class P17_Orwell
         $input = trim(fgets($GLOBALS['STDIN'] ?? STDIN));
 
         // Check if the input is exactly 1984
+        // Hint: Cast the input to int to compare using (int)$input
         // Write your code here
        
     }
